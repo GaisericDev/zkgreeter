@@ -13,5 +13,8 @@
     "zksync-web3": "^0.11.0"
   },
   "repository": "https://github.com/GaisericDev/zkgreeter.git",
-  "author": "Gankerjack <sebastiaancrisan@gmail.com>"
+  "author": "Gankerjack <sebastiaancrisan@gmail.com>",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }

@@ -1,0 +1,53 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/sebas/Desktop/dev/zkgreeter/contracts/Greeter.sol": {
+      "lastModificationDate": 1666789068091,
+      "contentHash": "f97d4c5725146bd23001a8653a124f6c",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {
+              "dockerImage": "matterlabs/zksolc",
+              "tag": "v1.2.0"
+            },
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    }
+  }
+}
